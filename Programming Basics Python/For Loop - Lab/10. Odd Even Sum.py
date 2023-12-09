@@ -2,7 +2,6 @@ n = int(input())
 
 even_sum = 0
 odd_sum = 0
-
 for i in range(n):
     current_number = int(input())
     if i % 2 == 0:
