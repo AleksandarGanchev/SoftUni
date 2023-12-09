@@ -3,7 +3,6 @@ length = int(input())
 height = int(input())
 
 free_space = width * length * height
-
 while free_space > 0:
     command = input()
     if command == 'Done':
