@@ -23,3 +23,11 @@ print(occurrences(string))
 # occurrences += string.count("sun")
 #
 # print(occurrences)
+
+
+
+
+
+
+
+
