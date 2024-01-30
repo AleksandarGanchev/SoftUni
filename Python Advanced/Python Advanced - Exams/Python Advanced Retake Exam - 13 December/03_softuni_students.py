@@ -16,17 +16,3 @@ def softuni_students(*args, **kwargs):
         output.append(invalid_username_result)
 
     return "\n".join(output)
-
-
-
-print(softuni_students(
-    ('id_22', 'Programmingkitten'),
-    ('id_11', 'MitkoTheDark'),
-    ('id_321', 'Bobosa253'),
-    ('id_08', 'KrasimirAtanasov'),
-    ('id_32', 'DaniBG'),
-    id_321='HTML & CSS',
-    id_22='Machine Learning',
-    id_08='JS Advanced',
-))
-
