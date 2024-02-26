@@ -61,4 +61,4 @@ for drago_color, info in dragon_army.items():
 #
 #     for drago_name, values in sorted(info.items()):
 #         print(f"-{drago_name} -> damage: {values[0]}, health: {values[1]}, armor: {values[2]}")
-# 
+#
