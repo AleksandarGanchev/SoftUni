@@ -2,6 +2,7 @@ from album import Album
 from song import Song
 from band import Band
 
+
 song = Song("Running in the 90s", 3.45, False)
 print(song.get_info())
 album = Album("Initial D", song)
