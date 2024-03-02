@@ -3,10 +3,10 @@ class Person:
         self.__age = age
         self.__name = name
 
-    def get_name(self):
+    def get_name(self) -> str:
         return self.__name
 
-    def get_age(self):
+    def get_age(self) -> int:
         return self.__age
 
 
