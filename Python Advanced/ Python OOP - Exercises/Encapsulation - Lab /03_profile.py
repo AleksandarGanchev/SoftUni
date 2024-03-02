@@ -8,7 +8,7 @@ class Profile:
         return self.__username
 
     @username.setter
-    def username(self, value: str):
+    def username(self, value: str) -> None:
         if 5 <= len(value) <= 15:
             self.__username = value
         else:
@@ -29,5 +29,5 @@ class Profile:
         else:
             raise ValueError("The password must be 8 or more characters with at least 1 digit and 1 uppercase letter.")
 
-    def __str__(self):
+    def __str__(self) -> str:
         return f'You have a profile with username: "{self.username}" and password: {"*" * len(self.password)}'
