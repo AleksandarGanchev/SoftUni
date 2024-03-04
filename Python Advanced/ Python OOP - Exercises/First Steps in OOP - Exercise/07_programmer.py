@@ -22,3 +22,4 @@ class Programmer:
             return f"{self.name} switched from {old_language} to {new_language}"
 
         return f"{self.name} needs {skills_needed - self.skills} more skills"
+
