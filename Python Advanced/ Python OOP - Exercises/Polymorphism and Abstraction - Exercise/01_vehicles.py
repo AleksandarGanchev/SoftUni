@@ -41,4 +41,3 @@ class Truck(Vehicle):
 
     def refuel(self, fuel) -> None:
         self.fuel_quantity += fuel * self.fuel_leak
-        
