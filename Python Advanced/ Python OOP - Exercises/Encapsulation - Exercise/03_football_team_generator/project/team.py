@@ -24,8 +24,3 @@ class Team:
 
         except IndexError:
             return f"Player {player_name} not found"
-
-
-
-
-
