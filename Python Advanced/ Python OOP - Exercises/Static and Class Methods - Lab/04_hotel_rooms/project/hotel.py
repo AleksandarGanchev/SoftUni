@@ -39,3 +39,4 @@ class Hotel:
                   f"Taken rooms: {', '.join(taken_rooms)}"]
 
         return "\n".join(output)
+
