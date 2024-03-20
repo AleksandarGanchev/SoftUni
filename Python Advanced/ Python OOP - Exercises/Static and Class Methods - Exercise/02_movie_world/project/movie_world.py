@@ -62,5 +62,3 @@ class MovieWorld:
             output.append(f"{dvd}")
 
         return '\n'.join([x for x in output])
-
-

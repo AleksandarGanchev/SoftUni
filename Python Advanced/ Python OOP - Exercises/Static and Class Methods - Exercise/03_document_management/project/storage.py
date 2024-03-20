@@ -62,17 +62,3 @@ class Storage:
 
     def __repr__(self):
         return '\n'.join(doc.__repr__() for doc in self.documents)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
