@@ -1,5 +1,5 @@
-from project import BaseClimber
-from project import BasePeak
+# from project import BaseClimber
+# from project import BasePeak
 
 
 class ArcticClimber(BaseClimber):

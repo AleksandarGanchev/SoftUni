@@ -36,5 +36,3 @@ class BasePeak(ABC):
     @abstractmethod
     def calculate_difficulty_level(self):
         ...
-
-

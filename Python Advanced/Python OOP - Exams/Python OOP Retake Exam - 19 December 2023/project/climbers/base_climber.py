@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-from project import BasePeak
+# from project import BasePeak
 
 
 class BaseClimber(ABC):
