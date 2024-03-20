@@ -42,6 +42,3 @@ class Gym:
         equipment = [x for x in self.equipment if x.id == plan.equipment_id][0]
 
         return f"{subscript}\n{customer}\n{trainer}\n{equipment}\n{plan}"
-
-
-
