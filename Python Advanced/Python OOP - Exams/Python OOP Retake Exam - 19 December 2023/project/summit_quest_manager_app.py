@@ -94,3 +94,4 @@ class SummitQuestManagerApp:
             output.append(str(name))
 
         return '\n'.join(output)
+
