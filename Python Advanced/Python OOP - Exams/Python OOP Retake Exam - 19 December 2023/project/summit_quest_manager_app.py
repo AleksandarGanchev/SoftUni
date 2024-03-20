@@ -1,9 +1,9 @@
 from typing import List
 
-from project.climbers.arctic_climber import ArcticClimber
-from project.climbers.summit_climber import SummitClimber
-from project.peaks.arctic_peak import ArcticPeak
-from project.peaks.summit_peak import SummitPeak
+from project import ArcticClimber
+from project import SummitClimber
+from project import ArcticPeak
+from project import SummitPeak
 
 
 class SummitQuestManagerApp:

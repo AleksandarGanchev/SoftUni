@@ -1,5 +1,5 @@
-from project.animals.animal import Mammal
-from project.food import Vegetable, Fruit, Meat
+from project import Mammal
+from project import Vegetable, Fruit, Meat
 
 
 class Mouse(Mammal):

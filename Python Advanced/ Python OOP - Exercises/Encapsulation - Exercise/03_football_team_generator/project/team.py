@@ -1,6 +1,6 @@
 from typing import List, Union
 
-from project.player import Player
+from project import Player
 
 
 class Team:
